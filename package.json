@@ -5,9 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:Era-Fish-DB": "node dist/era-fish-db/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +20,7 @@
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.8",
     "express": "^4.18.2",
+    "nativescript-sqlite": "^2.8.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
